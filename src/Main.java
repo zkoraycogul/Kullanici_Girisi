@@ -14,7 +14,6 @@ public class Main {
         }else if(id.equals("java") && (!pw.equals("patika123"))){
             System.out.print("Şifrenizi değiştirmek istiyor musunuz ? \n1-evet / 2-hayır : ");
             a = input.nextLine();
-            System.out.println("A değeri = " + a);
             if (a.equals("evet")) {
                 System.out.print("Yeni şifre giriniz : ");
                 pw2 = input.nextLine();
